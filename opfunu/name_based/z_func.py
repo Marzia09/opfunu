@@ -12,7 +12,7 @@ class Zacharov(Benchmark):
     .. [1] Jamil, M. & Yang, X.-S. A Literature Survey of Benchmark Functions For Global Optimization
     Problems Int. Journal of Mathematical Modelling and Numerical Optimisation, 2013, 4, 150-194.
     """
-    name = "Hansen Function"
+    name = "Zacharov Function"
     latex_formula = r'f(x) = \sum_{i=1}^{n} x_i^2 + \left ( \frac{1}{2}
                                  \sum_{i=1}^{n} i x_i \right )^2
                                  + \left ( \frac{1}{2} \sum_{i=1}^{n} i x_i 
